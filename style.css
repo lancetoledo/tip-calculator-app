@@ -20,12 +20,12 @@ body {
 
 #logo {
     position: relative;
-    bottom: 100px;
+    bottom: 60px;
 }
 
 .container {
-    width: 40%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     display: flex;
@@ -46,7 +46,7 @@ body {
     background: hsl(189, 41%, 97%);
     border-radius: 5px;
     width: 95%;
-    padding: 10px;
+    padding: 5px;
     margin-top: 10px;
     align-items: center;
 }
@@ -84,8 +84,8 @@ body {
 }
 
 .row button {
-    width: 125px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -98,8 +98,8 @@ body {
 }
 
 #custom {
-    width: 125px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -137,14 +137,14 @@ body {
     /* margin-top: 50px; */
 }
 
-.column {
+.amount {
     display: flex;
     width: 100%;
     justify-content: center;
 
 }
 
-.column div {
+.amount div {
     width: 45%;
     height: 100px;
     justify-content: center;
@@ -154,16 +154,16 @@ body {
     flex-direction: column;
 }
 
-.column div:first-child {
+.amount div:first-child {
     padding-left: 25px;
 }
 
-.column h1 {
+.amount h1 {
     color: hsl(184, 14%, 56%);
     font-size: 40px;
 }
 
-.column p {
+.amount p {
     color: hsl(0, 0%, 100%);
 }
 
@@ -180,6 +180,4 @@ body {
     background: hsl(184, 14%, 56%);
     cursor: pointer;
 }
-
-
 
